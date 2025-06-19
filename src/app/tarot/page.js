@@ -22,15 +22,7 @@ import NextBtnImg from '@/../public/source/0-startPage/0-1-next-btn.png';
 
 export default function tarot() {
 
-  return <RedirectToTarot />;
-
-  function RedirectToTarot() {
-    const router = useRouter();
-    useEffect(() => {
-      router.push('/tarot');
-    }, []);
-    return null;
-  }
+  
 
 
   const [gameState, setGameState] = useState(0); // 0~4 各個畫面
